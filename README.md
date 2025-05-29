@@ -5,6 +5,21 @@ Rank checking is all about tracking where your site shows up on Google for the k
 
 This guide shows you how to build your own rank checker in PHP. PHP’s simple, powerful, and flexible - good for this job. It’s got a huge community and plenty of tools to get things done.
 
+## Table of Contents
+
+- [What You’ll Need](#what-youll-need)
+- [Building a Keyword Rank Checker](#building-a-keyword-rank-checker)
+  - [Scraping Google Results the Smart Way](#scraping-google-results-the-smart-way)
+  - [Import Libraries and Make a Request](#import-libraries-and-make-a-request)
+  - [Parsing and Extracting Keyword Ranks](#parsing-and-extracting-keyword-ranks)
+  - [Storing and Presenting Results](#storing-and-presenting-results)
+  - [Scheduling and Automation](#scheduling-and-automation)
+- [Enhancing the Keyword Rank Checker PHP Script](#enhancing-the-keyword-rank-checker-php-script)
+  - [SERP Snapshot](#serp-snapshot)
+  - [Featured Snippets and Date](#featured-snippets-and-date)
+- [Conclusion](#conclusion)
+
+
 ## What You’ll Need
 
 PHP’s an old player in web dev. In a [previous article](https://hasdata.com/blog/php-web-scraping-libraries), I covered how to set up PHP, what tools to use, and how to scrape data.
