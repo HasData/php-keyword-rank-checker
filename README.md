@@ -1,7 +1,7 @@
 # Build Your Own Keyword Rank Checker with PHP 
-[![preview](img/preview.png)](https://hasdata.com/)
+[![preview](img/preview.png)](https://hasdata.com/?utm_source=github&utm_medium=syndication&utm_campaign=serp-history&utm_content=php-keyword-rank-checker-readme)
 
-Rank checking is all about tracking where your site shows up on Google for the keywords that matter. It’s a key part of SEO, showing you how visible your site really is, and where you need to step up. There are plenty of ready-made [rank checking tools](https://hasdata.com/blog/rank-tracking-apis), but they can be stiff, overpriced, and not always what you need.
+Rank checking is all about tracking where your site shows up on Google for the keywords that matter. It’s a key part of SEO, showing you how visible your site really is, and where you need to step up. There are plenty of ready-made [rank checking tools](https://hasdata.com/blog/rank-tracking-apis?utm_source=github&utm_medium=syndication&utm_campaign=serp-history&utm_content=php-keyword-rank-checker-readme), but they can be stiff, overpriced, and not always what you need.
 
 This guide shows you how to build your own rank checker in PHP. PHP’s simple, powerful, and flexible - good for this job. It’s got a huge community and plenty of tools to get things done.
 
@@ -22,7 +22,7 @@ This guide shows you how to build your own rank checker in PHP. PHP’s simple, 
 
 ## What You’ll Need
 
-PHP’s an old player in web dev. In a [previous article](https://hasdata.com/blog/php-web-scraping-libraries), I covered how to set up PHP, what tools to use, and how to scrape data.
+PHP’s an old player in web dev. In a [previous article](https://hasdata.com/blog/php-web-scraping-libraries?utm_source=github&utm_medium=syndication&utm_campaign=serp-history&utm_content=php-keyword-rank-checker-readme), I covered how to set up PHP, what tools to use, and how to scrape data.
 
 I won’t rehash that here. Just make sure you’ve got:
 
@@ -42,9 +42,9 @@ This info helps you make smart SEO decisions—whether it’s content, site twea
 
 ### Scraping Google Results the Smart Way
 
-Google’s the top search engine, so your rank checker should focus there. But scraping Google’s SERPs directly is tricky—CAPTCHAs, IP blocks, changing page structures. We’ve already covered [how to scrape Google](https://hasdata.com/blog/scrape-google-search-results), but there’s a better way.
+Google’s the top search engine, so your rank checker should focus there. But scraping Google’s SERPs directly is tricky—CAPTCHAs, IP blocks, changing page structures. We’ve already covered [how to scrape Google](https://hasdata.com/blog/scrape-google-search-results?utm_source=github&utm_medium=syndication&utm_campaign=serp-history&utm_content=php-keyword-rank-checker-readme), but there’s a better way.
 
-Instead of wrestling with scraping, use HasData’s [SERP API](https://hasdata.com/apis/google-serp-api). It gives you structured search data, no scraping needed.
+Instead of wrestling with scraping, use HasData’s [SERP API](https://hasdata.com/apis/google-serp-api?utm_source=github&utm_medium=syndication&utm_campaign=serp-history&utm_content=php-keyword-rank-checker-readme). It gives you structured search data, no scraping needed.
 
 Here’s why it’s the smart move:
 
@@ -54,7 +54,7 @@ Here’s why it’s the smart move:
 4. If Google changes its page layout, the API handles it for you.  
 5. Simple enough for beginners.  
 
-If this feels overwhelming, there’s a shortcut: we’ve already put together a [Google Sheets rank tracker](https://hasdata.com/blog/google-sheets-rank-tracker) with a scraper. You can just use the template and start tracking your ranks right away.
+If this feels overwhelming, there’s a shortcut: we’ve already put together a [Google Sheets rank tracker](https://hasdata.com/blog/google-sheets-rank-tracker?utm_source=github&utm_medium=syndication&utm_campaign=serp-history&utm_content=php-keyword-rank-checker-readme) with a scraper. You can just use the template and start tracking your ranks right away.
 
 But if you want to build your own tool in PHP, this guide has you covered.
 
